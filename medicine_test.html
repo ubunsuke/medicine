@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <script type="text/javascript" src="medicine_bot1_question.js"></script>
+</head>
+
+<body>
+  <h1>医薬品先発-後発名テスト</h1>
+    <p id=question>先発商品名【】</p>
+    <table>
+      <tr>
+        <td><input type="button" value="1" onclick="checkAns(1)"></td>
+        <td id=sel1>ニコランジル</td>
+      </tr>
+      <tr>
+        <td><input type="button" value="2" onclick="checkAns(2)"></td>
+        <td id=sel2>ニコランジル</td>
+      </tr>
+      <tr>
+        <td><input type="button" value="3" onclick="checkAns(3)"></td>
+        <td id=sel3>ニコランジル</td>
+      </tr>
+    </table>
+<!--    <p>
+      <input type="button" value="1" onclick="checkAns(1)">
+      <b id=answer1>ニコランジル</b>
+    </p>
+    <p>
+      <input type="button" value="2" onclick="checkAns(2)">
+      <b id=answer2>ニコランジル</b>
+    </p>
+    <p>
+      <input type="button" value="3" onclick="checkAns(3)">
+      <b id=answer3>ニコランジル</b>
+    </p>    -->
+    <p id=answer></p>
+    <p id=comment></p>
+    <input type="button" value="next" onclick="showQue()">
+
+</body>
+</html>
+
